@@ -1,0 +1,32 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.hero {
+  background-color: #3b3b3b;
+  height: 60vh;
+}
+
+h2 {
+  color: #556b2f;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-brand {
+  color: #9fc173;
+}
+
+.btn-success {
+  background-color: #556b2f;
+  border-color: #556b2f;
+}
+
+.btn-success:hover {
+  background-color: #6a8539;
+  border-color: #6a8539;
+}
