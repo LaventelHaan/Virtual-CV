@@ -5,8 +5,11 @@ body {
 }
 
 .hero {
-  background-color: #3b3b3b;
+  background: url('banner.png') center center/cover no-repeat;
   height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h2 {
@@ -34,4 +37,23 @@ h2 {
 .btn-success:hover {
   background-color: #6a8539;
   border-color: #6a8539;
+}
+
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+#about p {
+  flex: 1;
+}
+
+#about .profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #556b2f;
 }
