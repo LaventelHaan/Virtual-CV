@@ -6,7 +6,7 @@ body {
 
 .hero {
   background: url('banner.png') center center/cover no-repeat;
-  height: 60vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
